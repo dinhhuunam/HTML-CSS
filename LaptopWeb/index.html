@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "laptop_images/lap1.jpg" alt = "laptop image">
+              <img src = "laptop_images/lap2.jpg" alt = "laptop image">
+              <img src = "laptop_images/lap3.jpg" alt = "laptop image">
+              <img src = "laptop_images/lap4.jpg" alt = "laptop image">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "laptop_images/lap1.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "laptop_images/lap2.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "laptop_images/lap3.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "laptop_images/lap4.jpg" alt = "shoe image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+            <h2 class = "product-title">Laptop Asus Gaming ROG Strix G713RM- LL016W </h2>
+            <a href = "#" class = "product-link">visit laptop shop</a>
+
+            <div class = "product-detail">
+                <h2>Thông số sản phẩm</h2>
+                <ul>
+                <li>CPU: <span>AMD R7 6800H</span></li>
+                <li>RAM: <span>16GB</span></li>
+                <li>ổ cứng: <span>512GB SSD</span></li>
+                <li>VGA: <span>NVIDIA RTX 3060 6GB</span></li>
+                <li>Màn hình: <span>17.3 FHD 240hz</span></li>
+                </ul>
+            </div>
+
+            <span class="pro-status detail-info-item">
+                Tình trạng:  
+                <span class="green" style="color: #13dd64; font-family: 'Open Sans', sans-serif;"> Còn hàng </span>
+            </span>
+
+
+            <div class="detail-price-all" itemprop="offers" itemscope="" itemtype="https://schema.org/AggregateOffer">
+                    
+                <div class="detail-old-price">
+                    <span class="txt">Giá bán:</span>
+                    <span class="price">40.990.000đ</span>
+                </div>
+                
+                <div class="detail-price">
+                    <span class="txt">Giá khuyến mại:</span>
+                    <span class="price">39.490.000đ</span>
+                    
+                    
+                    <span class="detail-discount">(Tiết kiệm 1.500.000đ)</span>
+                    
+                </div>
+              <meta itemprop="highPrice" content="40990000">
+                            <meta itemprop="lowPrice" content="39490000">
+                            <meta itemprop="offerCount" content="1">
+                            <meta itemprop="priceCurrency" content="VND">
+            </div>
+
+            <div class = "purchase-info">
+                <input type = "number" min = "0" value = "1">
+                <button type = "button" class = "btn">
+                Đặt mua ngay<i class = "fas fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+      </div> 
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
